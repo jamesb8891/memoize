@@ -34,6 +34,6 @@ This project will help me learn how to build React apps and make an api call to 
 
 ### Design and Layout
 
-##### Our Wireframe:
+##### Wireframe:
 
 
