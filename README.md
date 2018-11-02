@@ -22,7 +22,7 @@ Copy and paste the following lines below into your terminal:
 
 ### Project Background:
 
-This project will help us learn how to build React apps and make an api call to obtain data and then utilize that data. This project is also an opportunity for us to build out a program based on user stories.
+This project will help me learn how to build React apps and make an api call to obtain data and then utilize that data. This project is also an opportunity for me to build out a program based on user stories.
 
 ### Project Goals:
 
