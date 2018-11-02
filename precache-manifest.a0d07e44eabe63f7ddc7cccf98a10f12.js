@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/memoize/static/js/runtime~main.1a418a8c.js"
   },
   {
-    "revision": "acd74b15d07fd35695ab",
-    "url": "/memoize/static/js/main.acd74b15.chunk.js"
+    "revision": "067221fc259d4da550b5",
+    "url": "/memoize/static/js/main.067221fc.chunk.js"
   },
   {
     "revision": "a700ff875c24dcc7b8f8",
     "url": "/memoize/static/js/1.a700ff87.chunk.js"
   },
   {
-    "revision": "acd74b15d07fd35695ab",
+    "revision": "067221fc259d4da550b5",
     "url": "/memoize/static/css/main.aa1caabe.chunk.css"
   },
   {
-    "revision": "653f828fe91c3da634748ba3c0ef0997",
+    "revision": "9ac64439907cafc4182afb58baf89a8a",
     "url": "/memoize/index.html"
   }
 ];

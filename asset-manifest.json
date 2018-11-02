@@ -1,7 +1,7 @@
 {
   "main.css": "/memoize/static/css/main.aa1caabe.chunk.css",
-  "main.js": "/memoize/static/js/main.acd74b15.chunk.js",
-  "main.js.map": "/memoize/static/js/main.acd74b15.chunk.js.map",
+  "main.js": "/memoize/static/js/main.067221fc.chunk.js",
+  "main.js.map": "/memoize/static/js/main.067221fc.chunk.js.map",
   "static/js/1.a700ff87.chunk.js": "/memoize/static/js/1.a700ff87.chunk.js",
   "static/js/1.a700ff87.chunk.js.map": "/memoize/static/js/1.a700ff87.chunk.js.map",
   "runtime~main.js": "/memoize/static/js/runtime~main.1a418a8c.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/memoize/static/media/logo.5d5d9eef.svg",
   "static/css/main.aa1caabe.chunk.css.map": "/memoize/static/css/main.aa1caabe.chunk.css.map",
   "index.html": "/memoize/index.html",
-  "precache-manifest.b9e0fe932cadd7686001171cb70fc60c.js": "/memoize/precache-manifest.b9e0fe932cadd7686001171cb70fc60c.js",
+  "precache-manifest.a0d07e44eabe63f7ddc7cccf98a10f12.js": "/memoize/precache-manifest.a0d07e44eabe63f7ddc7cccf98a10f12.js",
   "service-worker.js": "/memoize/service-worker.js"
 }
