@@ -1,27 +1,56 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+import Cards from "./Cards.js";
 import "./App.css";
+import "./Cards.css";
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      showPopup: true,
+      questions: []
+    };
+  }
+
+  componentDidMount = () => {
+    fetch("http://memoize-datasets.herokuapp.com/api/v1/gitquestions")
+      .then(response => response.json())
+      .then(questions => {
+        this.setState({
+          questions: questions.gitQuestions
+        });
+      })
+      .catch(error => console.log(error));
+  };
+
+  hidePopup = event => {
+    event.preventDefault();
+    this.setState({
+      showPopup: false
+    });
+  };
+
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            liashfcaknfscp;iansfpv;a
-          </a>
-        </header>
-      </div>
-    );
+    if (this.state.showPopup === true) {
+      return (
+        <div className="App">
+          {this.state.showPopup ? (
+            <div className="popup">
+              <h1>Memoize!</h1>
+              <button className="hide-popup-button" onClick={this.hidePopup}>
+                Start Game!
+              </button>
+            </div>
+          ) : null}
+        </div>
+      );
+    } else {
+      return (
+        <div className="App">
+          <Cards questions={this.state.questions} />;
+        </div>
+      );
+    }
   }
 }
 
