@@ -1,4 +1,4 @@
-const questions = [
+const gitQuestions = [
   {
     id: 0,
     question:
@@ -10,7 +10,7 @@ const questions = [
     id: 1,
     question:
       "What is the button called that creates a copy of a repo under your own GitHub account?",
-    answer: "fork",
+    answer: "fork.",
     answeredCorrectly: false
   },
   {
@@ -222,6 +222,5 @@ const questions = [
 ];
 
 module.exports = {
-  questions,
-  answers
+  gitQuestions
 };

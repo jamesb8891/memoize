@@ -1,0 +1,15 @@
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0 auto 20px;
+}
+
+.Cards {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-image: url("background.jpeg"); */
+  background-position: bottom;
+  height: 100vh;
+}
